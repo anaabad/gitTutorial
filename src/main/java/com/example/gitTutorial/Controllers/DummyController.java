@@ -11,6 +11,6 @@ public class DummyController {
     @ResponseStatus(HttpStatus.OK)
     @GetMapping("/greetings")
     public String greetings() {
-        return "Hello there! :)";
+        return "Hello there!";
     }
 }
