@@ -13,4 +13,10 @@ public class DummyController {
     public String greetings() {
         return "Hello there!";
     }
+
+    @ResponseStatus(HttpStatus.OK)
+    @GetMapping("/goodbye")
+    public String goodbye() {
+        return "See you later!";
+    }
 }
