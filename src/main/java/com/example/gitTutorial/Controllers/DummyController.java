@@ -13,5 +13,9 @@ public class DummyController {
     public String greetings() {
         return "Hello there! :)";
     }
+    @GetMapping("/goodbye ")
+    public String goodbye() {
+        return "Goodbye :)";
+    }
 
 }
